@@ -6,8 +6,6 @@
 
 fn main() {
     let mut res = 42;
-    while let Some(x) = Some(12) {
-        res += x;
-    }
+   res += 12;
     println!("{}", res);
 }
